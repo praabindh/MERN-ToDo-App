@@ -44,7 +44,7 @@ const deleteTodo = async (req, res) => {
 
     try {
         await Todo.findByIdAndDelete(id);
-        res.json({ message: 'Todo deleted' });
+        res.json({ message: 'Todo Deleted' });
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
