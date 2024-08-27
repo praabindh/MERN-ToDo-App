@@ -10,7 +10,7 @@ const LoginPage = () => {
         if (username === 'admin' && password === 'password') {
             navigate('/todos');
         } else {
-            alert('Invalid credentials');
+            alert('Invalid Credentials');
         }
     };
 

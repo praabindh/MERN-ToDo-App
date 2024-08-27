@@ -42,7 +42,7 @@ const TodoApp = () => {
         <div className="container">
             <div className="d-flex justify-content-between align-items-center my-3">
                 <h2>Todo List</h2>
-                <button className="btn btn-secondary" onClick={handleLogout}>
+                <button className="btn btn-warning" onClick={handleLogout}>
                     Logout
                 </button>
             </div>
@@ -50,7 +50,7 @@ const TodoApp = () => {
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="Add A Brand New Task"
+                    placeholder="Add A New Task"
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                 />

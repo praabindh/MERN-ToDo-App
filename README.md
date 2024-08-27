@@ -10,3 +10,4 @@ touch .env
 MONGO_URI=
 PORT=8000
 ```
+
